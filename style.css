@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.hh1 {
+h1 {
     margin-left: 2%;
     float: left;
     color: rgb(9, 255, 0);
@@ -30,9 +30,15 @@ li:hover {
     transition: 0.5s;
 }
 div {
-    margin: 20px;
-    padding: 10px;
-    border: blue;
     height: 300px;
-    width: 100px;
+    width: 100%;
+}
+img {
+    top: 0;
+}
+h2 {
+    position: absolute;
+    top: 100px;
+    color: white;
+    text-align: center;
 }
